@@ -13,7 +13,7 @@ function NavbarTop() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Link to="/home" className='m-auto px-2 text-white text-decoration-none'>🏡Home</Link>
+                        <Link to="/" className='m-auto px-2 text-white text-decoration-none'>🏡Home</Link>
                         <Link to="/contacto" className='m-auto text-white text-decoration-none'>📒Contacto</Link>
                     </Nav>
                 </Navbar.Collapse>

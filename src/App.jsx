@@ -12,9 +12,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavbarTop />
-        <Home />
         <Routes>
-          <Route path="/" element={<Home />}/>
+          <Route path="/desafio-1-happycake/" element={<Home />}/>
           <Route path='/contacto' element={<Contacto />}/>
         </Routes>
       </BrowserRouter>
